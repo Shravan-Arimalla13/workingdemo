@@ -20,7 +20,7 @@ exports.generateEventQR = async (req, res) => {
         await event.save();
         
         // Use your VERCEL URL here
-        const baseUrl = "https://final-project-wheat-mu-84.vercel.app"; 
+        const baseUrl = "https://workingdemo.vercel.app"; 
         const checkInUrl = `${baseUrl}/poap/checkin?token=${checkInToken}&eventId=${eventId}`;
         
         const qrCode = await QRCode.toDataURL(checkInUrl);
