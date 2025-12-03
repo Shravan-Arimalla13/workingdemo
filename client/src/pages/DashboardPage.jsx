@@ -76,7 +76,7 @@ const CertificateVisualCard = ({ cert }) => (
       {/* Action Buttons */}
       <div className="grid grid-cols-2 gap-2 pt-2">
         <a
-          href={`https://finalproject-jq2d.onrender.com/api/certificates/download/${cert.certificateId}`}
+          href={`https://workingdemo.onrender.com/api/certificates/download/${cert.certificateId}`}
           target="_blank"
           rel="noopener noreferrer"
         >
